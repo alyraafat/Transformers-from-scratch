@@ -34,5 +34,5 @@ Layer normalization and residual connections are crucial for stabilizing and acc
 The Transformer model consists of an encoder to process the input and a decoder to generate the output. We build these components from the ground up, integrating attention, feed-forward networks, and normalization.
 
 # References
-1. ![Vaswani, A., et al. (2017). Attention is All You Need. arXiv:1706.03762.](https://arxiv.org/abs/1706.03762)
-2. ![Transformers from scratch - CodeEmporium](https://youtube.com/playlist?list=PLTl9hO2Oobd97qfWC40gOSU8C0iu0m2l4&si=LuRzNb0mTis-miL8)
+1. [Vaswani, A., et al. (2017). Attention is All You Need. arXiv:1706.03762.](https://arxiv.org/abs/1706.03762)
+2. [Transformers from scratch - CodeEmporium](https://youtube.com/playlist?list=PLTl9hO2Oobd97qfWC40gOSU8C0iu0m2l4&si=LuRzNb0mTis-miL8)
