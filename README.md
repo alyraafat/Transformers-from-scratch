@@ -11,6 +11,7 @@ This repository is dedicated to building Transformers from scratch using PyTorch
   - [Feed-Forward Networks](#feed-forward-networks)
   - [Normalization and Residual Connections](#normalization-and-residual-connections)
   - [Encoder and Decoder](#encoder-and-decoder)
+- [Dataset](#dataset)
 - [References](#references)
 
 ## Introduction
@@ -32,6 +33,13 @@ Layer normalization and residual connections are crucial for stabilizing and acc
 
 ### Encoder and Decoder
 The Transformer model consists of an encoder to process the input and a decoder to generate the output. We build these components from the ground up, integrating attention, feed-forward networks, and normalization.
+
+## Dataset
+
+For the English to German translation task, we utilized the dataset from the Europarl corpus. This dataset comprises parallel corpora extracted from the proceedings of the European Parliament and is available for several European languages. It serves as an excellent resource for training and evaluating machine translation systems.
+
+- [Europarl Parallel Corpus - English to German](https://www.statmt.org/europarl/)
+
 
 ## References
 1. [Vaswani, A., et al. (2017). Attention is All You Need. arXiv:1706.03762.](https://arxiv.org/abs/1706.03762)
