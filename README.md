@@ -1,6 +1,6 @@
 # Transformers from Scratch
 
-This repository is dedicated to building Transformers from scratch using PyTorch and Numpy. Our goal is to demystify the components of the Transformer architecture, as introduced by Vaswani et al. in the seminal paper "Attention is All You Need". This project serves as an educational resource for those looking to understand and implement Transformer models without relying on high-level libraries.
+This repository is dedicated to building Transformers from scratch using PyTorch and Numpy. Our goal is to demystify the components of the Transformer architecture, as introduced by Vaswani et al. in the seminal paper "Attention is All You Need". This project serves as an educational resource for those looking to understand and implement Transformer models without relying too much on high-level libraries.
 
 ## Table of Contents
 
