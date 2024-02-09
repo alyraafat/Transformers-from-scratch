@@ -12,6 +12,7 @@ This repository is dedicated to building Transformers from scratch using PyTorch
   - [Normalization and Residual Connections](#normalization-and-residual-connections)
   - [Encoder and Decoder](#encoder-and-decoder)
 - [Dataset](#dataset)
+- [Model Limitations and Future Work](#model-limitations-and-future-work)
 - [References](#references)
 
 ## Introduction
@@ -40,6 +41,11 @@ For the English to German translation task, we utilized the dataset from the Eur
 
 - [Europarl Parallel Corpus - English to German](https://www.statmt.org/europarl/)
 
+## Model Limitations and Future Work
+
+While the Transformer model implemented in this repository has been used to translate from English to German, it's important to note that it is not yet a high-performing model due to several constraints. One significant limitation is the use of character-level embeddings, which, while insightful for educational purposes, may not capture the linguistic complexities and nuances as effectively as word or subword embeddings. Additionally, the training time for the model is considerably long, which can be a barrier to iterative experimentation and model refinement.
+
+Future work should consider on addressing these limitations by exploring the use of more sophisticated embedding techniques, such as word or subword embeddings, which are known to enhance model performance for language tasks. These enhancements are critical for advancing the model from a conceptual demonstration to a more practical and powerful tool for machine translation tasks. 
 
 ## References
 1. [Vaswani, A., et al. (2017). Attention is All You Need. arXiv:1706.03762.](https://arxiv.org/abs/1706.03762)
